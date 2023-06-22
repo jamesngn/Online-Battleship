@@ -1,0 +1,69 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.game-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+h1 span {
+  font-size: 24px;
+  color: chocolate;
+}
+
+.board-container {
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  cursor: pointer;
+}
+td.hit {
+  background-color: red !important;
+}
+td.missed {
+  background-color: gray !important;
+}
+.player-board-container td {
+  width: 20px;
+  height: 20px;
+}
+
+.opponent-board-container td:hover {
+  background-color: lightgray;
+}
+
+.ship-placed {
+  background-color: #ffcc66; /* Change this color to your desired color */
+}
+
+/* Customize player and opponent board styles */
+.player-board {
+  /* Customize player board styles */
+}
+
+.opponent-board {
+  /* Customize opponent board styles */
+}

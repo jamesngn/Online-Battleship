@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Battleship</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Battleship</h1>
+
+    <div class="game-container" MV>
+      <div class="player-board">
+        <h2>Player 1</h2>
+        <div class="game-board">
+          <table>
+            <tbody id="board-body">
+              <!-- Dynamic generation of rows and cells using JavaScript -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="ship-container">
+        <h3>Select a Ship:</h3>
+        <div class="ship-option" data-ship-type="carrier">
+          <span>Carrier (6 cells)</span>
+        </div>
+        <div class="ship-option" data-ship-type="battleship">
+          <span>Battleship (5 cells)</span>
+        </div>
+        <div class="ship-option" data-ship-type="cruiser">
+          <span>Cruiser (4 cells)</span>
+        </div>
+        <div class="ship-option" data-ship-type="submarine">
+          <span>Submarine (3 cells)</span>
+        </div>
+        <div class="ship-option" data-ship-type="destroyer">
+          <span>Destroyer (2 cells)</span>
+        </div>
+        <button id="proceed-button" class="disabled">Proceed to Battle</button>
+        <p id="server-message"></p>
+      </div>
+    </div>
+    <script src="js/client2.js"></script>
+  </body>
+</html>

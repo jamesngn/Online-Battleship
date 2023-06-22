@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "debounce": "^1.2.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
+    "ws": "^8.13.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "online-battleship-game",
+  "version": "1.0.0",
+  "description": "Use websocket and heroku to make battleship online",
+  "main": "\u001b[A\u001b[B",
+  "keywords": [
+    "Battleship"
+  ],
+  "author": "Quang",
+  "license": "ISC"
+}
