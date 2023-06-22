@@ -42,7 +42,7 @@ function init() {
   if (ws) {
     ws.onerror = ws.onopen = ws.onclose = null;
   }
-  ws = new WebSocket("ws://localhost:8080");
+  ws = new WebSocket("wss://online-battleship-a3a18b105d89.herokuapp.com/");
 
   ws.onopen = () => {
     console.log("Connection opened!");
