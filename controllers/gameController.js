@@ -10,6 +10,11 @@ class GameController {
     };
     this.model = new GameModel();
     this.wss.on("connection", this.handlePlayerConnection.bind(this));
+    this.wss.clients.forEach((ws) => {
+      ws.onclose = () => {
+        this.handlePlayerNotJoin(ws);
+      };
+    });
   }
 
   handlePlayerConnection(ws) {
