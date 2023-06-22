@@ -68,7 +68,7 @@ class GameController {
       player.send(JSON.stringify({ type: "start", playerIndex: index + 1 }));
     });
 
-    // this.resetGameState();
+    this.handleResetGameState();
   }
 
   handleResetGameState() {
