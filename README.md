@@ -35,4 +35,4 @@ Online Battleship Game is a multiplayer web-based implementation of the classic 
 1. Clone the repository: `git clone https://github.com/jamesngn/Online-Battleship`
 2. Install dependencies: `npm install`
 3. Run the development server: `npm run dev`
-4. Open your browser and navigate to `http://localhost:3000` to access the game.
+4. Open your browser and navigate to `http://localhost:8000` to access the game.
