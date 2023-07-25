@@ -3,7 +3,7 @@
 
 ## Description
 
-Online Battleship Game is a multiplayer web-based implementation of the classic Battleship board game. It allows players to compete against each other in real-time battles on the high seas. The game features an intuitive user interface, interactive gameplay, and support for multiple rooms to accommodate different matches simultaneously.
+Online Battleship Game is a multiplayer web-based implementation of the classic Battleship board game. It allows players to compete against each other in real-time battles on the high seas. The game features an intuitive user interface and interactive gameplay.
 
 ## Features
 
